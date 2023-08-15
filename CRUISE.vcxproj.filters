@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="imgui">
+      <UniqueIdentifier>{d9634b63-33da-4dff-92e4-4c88990e7d0f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Driver">
+      <UniqueIdentifier>{6368d0f0-2d1a-4f97-bfad-c198b90065a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="UGame">
+      <UniqueIdentifier>{f0e27936-2f45-44c5-b553-b7752da2af62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="defines">
+      <UniqueIdentifier>{56c31eb3-fdb0-4c62-b678-94191d870ca5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Overlay">
+      <UniqueIdentifier>{2b43711f-0558-4939-963f-c0fb28169385}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="imgui.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_demo.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_draw.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_dx9.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_impl_win32.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="imgui_widgets.cpp">
+      <Filter>imgui</Filter>
+    </ClCompile>
+    <ClCompile Include="DriverInterface.cpp">
+      <Filter>Driver</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="imconfig.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_dx9.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_impl_win32.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imgui_internal.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_rectpack.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_textedit.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="imstb_truetype.h">
+      <Filter>imgui</Filter>
+    </ClInclude>
+    <ClInclude Include="DriverInterface.h">
+      <Filter>Driver</Filter>
+    </ClInclude>
+    <ClInclude Include="UGameData.h">
+      <Filter>UGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Shield.h">
+      <Filter>UGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Memory.h">
+      <Filter>UGame</Filter>
+    </ClInclude>
+    <ClInclude Include="offsets.h">
+      <Filter>UGame</Filter>
+    </ClInclude>
+    <ClInclude Include="defines.h">
+      <Filter>defines</Filter>
+    </ClInclude>
+    <ClInclude Include="defs.h">
+      <Filter>defines</Filter>
+    </ClInclude>
+    <ClInclude Include="xUtils.h">
+      <Filter>defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Config.h">
+      <Filter>UGame</Filter>
+    </ClInclude>
+    <ClInclude Include="Images.h">
+      <Filter>defines</Filter>
+    </ClInclude>
+    <ClInclude Include="Overlay.h">
+      <Filter>Overlay</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
